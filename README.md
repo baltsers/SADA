@@ -25,7 +25,7 @@ computation for distributed programs, our methodology (as the key contribution) 
 (dependence computation) algorithm itself. Thus, we expect this methodology to be widely applicable to other
 dynamic analyses, especially those for long/continuously running programs.
 
-The complete artifact package has been made available at https://github.com/baltsers/SADA/tree/Material,
+The complete artifact package has been made available at https://github.com/baltsers/SADA,
 including the code, experimental scripts, and datasets. 
 The operations and test inputs of our subjects are documented in the file "Inputs.txt".	
 										
@@ -33,7 +33,7 @@ The operations and test inputs of our subjects are documented in the file "Input
 ### Install DistODD, an instance of this methodology 
 -----------
       
-- Download files from https://github.com/baltsers/SADA/tree/Material
+- Download files from https://github.com/baltsers/SADA
 
 - Copy all library files from the directory ”tool” of DistODD to a directory (e.g., "lib") defined by the user.
 
