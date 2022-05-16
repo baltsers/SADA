@@ -3,10 +3,13 @@ Operations and run-time inputs of our subjects
 -----------
 
 In each integration test, we started several server/client instances and performed various operations, to cover main subject features.
-Particularly for Thrift, xSocket, and Netty, which are all frameworks/libraries, we developed one sample application program for each of them to cover major functional features,
-and then exercised these subjects via executing corresponding applications.
+
+Particularly for Thrift, xSocket, and Netty, which are all frameworks/libraries, we developed one sample application program for each of them to cover major functional features, and then exercised these subjects via executing corresponding applications.
+
 Besides the integration tests, the load and system tests were downloaded as parts of software packages from corresponding official project websites.
+
 In our subject executions, servers regularly and infinitely interact with relevant clients.
+
 The following are brief descriptions of operations and test inputs involved in all integration tests：
 
 	NioEcho: We started a server and a client, and then sent random text messages from the client to the server and then waited for the echoing of each message.
