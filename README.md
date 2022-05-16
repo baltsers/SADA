@@ -1,4 +1,4 @@
-# Towards Self-Adaptive Dynamic Analysis
+# SADA: Towards Self-Adaptive Dynamic Analysis
 -----------
 Balancing cost (e.g., scalability) and effectiveness (e.g., precision) is a fundamental challenge in program
 analysis in general, often demanding the expensive effort of manually tuning the cost-effectiveness trade-off
